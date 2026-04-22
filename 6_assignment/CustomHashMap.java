@@ -69,8 +69,8 @@ public class CustomHashMap {
         CustomHashMap map = new CustomHashMap();
         map.put(1, 10);
         map.put(2, 20);
-        System.out.println(map.get(1));
+        System.out.println("Value for key 1: " + map.get(1));
         map.remove(1);
-        System.out.println(map.get(1));
+        System.out.println("Value for key 1 after removal: " + map.get(1));
     }
 }
